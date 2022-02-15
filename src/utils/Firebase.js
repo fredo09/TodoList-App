@@ -2,7 +2,7 @@
  *    Configuracion Firebase
  **/
 
-import firebase from "firebase/app";
+import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -15,4 +15,4 @@ const firebaseConfig = {
   appId: "1:683299821104:web:cf21fca35b2088e8e03ff5",
 };
 
-export default firebase.initializeApp(firebaseConfig);
+export default initializeApp(firebaseConfig);
